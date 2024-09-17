@@ -3,9 +3,9 @@
 👉 推荐 [Gitee同步](https://gitee.com/programmercarl/leetcode-master) 
 
 > 1. **介绍** ：本项目是一套完整的刷题计划，旨在帮助大家少走弯路，循序渐进学算法，[关注作者](#关于作者)
-> 2. **正式出版** ：[《代码随想录》](https://programmercarl.com/other/publish.html) 。
-> 3. **PDF版本** ：[「代码随想录」算法精讲 PDF 版本](https://programmercarl.com/other/algo_pdf.html) 。
-> 4. **算法公开课** ：[《代码随想录》算法视频公开课](https://www.programmercarl.com/other/gongkaike.html) 。
+> 2. **正式出版** ：[《代码随想录》](https://programmercarl.com/qita/publish.html) 。
+> 3. **PDF版本** ：[「代码随想录」算法精讲 PDF 版本](https://programmercarl.com/qita/algo_pdf.html) 。
+> 4. **算法公开课** ：[《代码随想录》算法视频公开课](https://www.bilibili.com/video/BV1fA4y1o715) 。
 > 5. **最强八股文** ：[代码随想录知识星球精华PDF](https://www.programmercarl.com/other/kstar_baguwen.html) 。
 > 6. **刷题顺序** ：README已经将刷题顺序排好了，按照顺序一道一道刷就可以。
 > 7. **学习社区** ：一起学习打卡/面试技巧/如何选择offer/大厂内推/职场规则/简历修改/技术分享/程序人生。欢迎加入[「代码随想录」知识星球](https://programmercarl.com/other/kstar.html) 。
@@ -14,7 +14,7 @@
 
 
 <p align="center">
-<a href="https://programmercarl.com/other/xunlianying.html" target="_blank">
+<a href="https://programmercarl.com/xunlian/xunlianying.html" target="_blank">
 	<img src="./pics/训练营.png" width="800"/>
 </a>
 </p>
@@ -74,18 +74,8 @@
 
 * 编程语言
     * [C++面试&C++学习指南知识点整理](https://github.com/youngyangyang04/TechCPP)
-
-* 项目
-    * [基于跳表的轻量级KV存储引擎](https://github.com/youngyangyang04/Skiplist-CPP)
-    * [Nosql数据库注入攻击系统](https://github.com/youngyangyang04/NoSQLAttack)
-
-* 编程素养
-    * [看了这么多代码，谈一谈代码风格！](./problems/前序/代码风格.md)
-    * [力扣上的代码想在本地编译运行？](./problems/前序/力扣上的代码想在本地编译运行？.md)
-    * [什么是核心代码模式，什么又是ACM模式？](./problems/前序/什么是核心代码模式，什么又是ACM模式？.md)
-    * [刷题要不要用库函数](./problems/前序/刷力扣用不用库函数.md)
-    * [ACM模式如何构造二叉树](./problems/前序/ACM模式如何构建二叉树.md)
-    * [解密互联网大厂研发流程](./problems/前序/互联网大厂研发流程.md)
+    * [编程语言基础课](https://kamacoder.com/courseshop.php)
+    * [23种设计模式](https://github.com/youngyangyang04/kama-DesignPattern)
 
 * 工具 
     * [一站式vim配置](https://github.com/youngyangyang04/PowerVim)
@@ -100,13 +90,12 @@
     * [BAT级别技术面试流程和注意事项都在这里了](./problems/前序/BAT级别技术面试流程和注意事项都在这里了.md)
     
 * 算法性能分析
-    * [关于时间复杂度，你不知道的都在这里！](./problems/前序/关于时间复杂度，你不知道的都在这里！.md)
-    * [O(n)的算法居然超时了，此时的n究竟是多大？](./problems/前序/On的算法居然超时了，此时的n究竟是多大？.md)
-    * [通过一道面试题目，讲一讲递归算法的时间复杂度！](./problems/前序/通过一道面试题目，讲一讲递归算法的时间复杂度！.md)
-    * [本周小结！（算法性能分析系列一）](./problems/周总结/20201210复杂度分析周末总结.md)
-    * [关于空间复杂度，可能有几个疑问？](./problems/前序/关于空间复杂度，可能有几个疑问？.md)
+    * [关于时间复杂度，你不知道的都在这里！](./problems/前序/时间复杂度.md)
+    * [O(n)的算法居然超时了，此时的n究竟是多大？](./problems/前序/算法超时.md)
+    * [通过一道面试题目，讲一讲递归算法的时间复杂度！](./problems/前序/递归算法的时间复杂度.md)
+    * [关于空间复杂度，可能有几个疑问？](./problems/前序/空间复杂度.md)
     * [递归算法的时间与空间复杂度分析！](./problems/前序/递归算法的时间与空间复杂度分析.md)
-    * [刷了这么多题，你了解自己代码的内存消耗么？](./problems/前序/刷了这么多题，你了解自己代码的内存消耗么？.md)
+    * [刷了这么多题，你了解自己代码的内存消耗么？](./problems/前序/内存消耗.md)
 
 
 ## 数组 
@@ -116,8 +105,10 @@
 3. [数组：27.移除元素](./problems/0027.移除元素.md)
 4. [数组：977.有序数组的平方](./problems/0977.有序数组的平方.md)    
 5. [数组：209.长度最小的子数组](./problems/0209.长度最小的子数组.md)
+6. [数组：区间和](./problems/kamacoder/0058.区间和.md)
 6. [数组：59.螺旋矩阵II](./problems/0059.螺旋矩阵II.md)
-7. [数组：总结篇](./problems/数组总结篇.md)
+8. [数组：开发商购买土地](./problems/kamacoder/0044.开发商购买土地.md)
+9. [数组：总结篇](./problems/数组总结篇.md)
 
 ## 链表
 
@@ -150,9 +141,9 @@
 
 1. [字符串：344.反转字符串](./problems/0344.反转字符串.md)
 2. [字符串：541.反转字符串II](./problems/0541.反转字符串II.md)
-3. [字符串：替换空格](./problems/剑指Offer05.替换空格.md)
+3. [字符串：替换数字](./problems/kama54.替换数字.md)
 4. [字符串：151.翻转字符串里的单词](./problems/0151.翻转字符串里的单词.md)
-5. [字符串：左旋转字符串](./problems/剑指Offer58-II.左旋转字符串.md)
+5. [字符串：右旋字符串](./problems/kama55.右旋字符串.md)
 6. [帮你把KMP算法学个通透](./problems/0028.实现strStr.md)
 8. [字符串：459.重复的子字符串](./problems/0459.重复的子字符串.md)
 9. [字符串：总结篇！](./problems/字符串总结.md)
@@ -163,7 +154,7 @@
 
 1. [数组：27.移除元素](./problems/0027.移除元素.md)
 2. [字符串：344.反转字符串](./problems/0344.反转字符串.md)
-3. [字符串：替换空格](./problems/剑指Offer05.替换空格.md)
+3. [字符串：替换数字](./problems/kama54.替换数字.md)
 4. [字符串：151.翻转字符串里的单词](./problems/0151.翻转字符串里的单词.md)
 5. [链表：206.翻转链表](./problems/0206.翻转链表.md)
 6. [链表：19.删除链表的倒数第 N 个结点](./problems/0019.删除链表的倒数第N个节点.md)
@@ -187,8 +178,9 @@
 
 ## 二叉树 
 
+
 题目分类大纲如下：           
-<img src='https://img-blog.csdnimg.cn/20210219190809451.png' width=600 alt='二叉树大纲'> </img></div>
+<img src='https://code-thinking-1253855093.file.myqcloud.com/pics/20240424172231.png' width=600 alt='二叉树大纲'> </img></div>
 
 1. [关于二叉树，你该了解这些！](./problems/二叉树理论基础.md)
 2. [二叉树：二叉树的递归遍历](./problems/二叉树的递归遍历.md)
@@ -230,7 +222,7 @@
 
 题目分类大纲如下：             
 
-<img src='https://img-blog.csdnimg.cn/20210219192050666.png' width=600 alt='回溯算法大纲'> </img></div>
+<img src='https://code-thinking-1253855093.file.myqcloud.com/pics/20240424172311.png' width=600 alt='回溯算法大纲'> </img></div>
 
 1. [关于回溯算法，你该了解这些！](./problems/回溯算法理论基础.md)
 2. [回溯算法：77.组合](./problems/0077.组合.md)
@@ -380,27 +372,40 @@
 
 ## 图论 
 
-通知：开始更新图论内容，图论部分还没有其他语言版本，欢迎录友们提交PR，成为contributor
+**[图论正式发布](./problems/qita/tulunfabu.md)**
 
-### 深搜广搜  
+1. [图论：理论基础](./problems/kamacoder/图论理论基础.md)
+2. [图论：深度优先搜索理论基础](./problems/kamacoder/图论深搜理论基础.md)
+3. [图论：所有可达路径](./problems/kamacoder/0098.所有可达路径.md)
+4. [图论：广度优先搜索理论基础](./problems/kamacoder/图论广搜理论基础.md)
+5. [图论：岛屿数量.深搜版](./problems/kamacoder/0099.岛屿的数量深搜.md)
+6. [图论：岛屿数量.广搜版](./problems/kamacoder/0099.岛屿的数量广搜.md)
+7. [图论：岛屿的最大面积](./problems/kamacoder/0100.岛屿的最大面积.md)
+8. [图论：孤岛的总面积](./problems/kamacoder/0101.孤岛的总面积.md)
+9. [图论：沉没孤岛](./problems/kamacoder/0102.沉没孤岛.md)
+10. [图论：水流问题](./problems/kamacoder/0103.水流问题.md)
+11. [图论：建造最大岛屿](./problems/kamacoder/0104.建造最大岛屿.md)
+12. [图论：字符串接龙](./problems/kamacoder/0110.字符串接龙.md)
+13. [图论：有向图的完全可达性](./problems/kamacoder/0105.有向图的完全可达性.md)
+14. [图论：岛屿的周长](./problems/kamacoder/0106.岛屿的周长.md)
+15. [图论：并查集理论基础](./problems/kamacoder/图论并查集理论基础.md)
+16. [图论：寻找存在的路径](./problems/kamacoder/0107.寻找存在的路径.md)
+17. [图论：冗余连接](./problems/kamacoder/0108.冗余连接.md)
+18. [图论：冗余连接II](./problems/kamacoder/0109.冗余连接II.md)
+19. [图论：最小生成树之prim](./problems/kamacoder/0053.寻宝-prim.md)
+20. [图论：最小生成树之kruskal](./problems/kamacoder/0053.寻宝-Kruskal.md)
+21. [图论：拓扑排序](./problems/kamacoder/0117.软件构建.md)
+22. [图论：dijkstra（朴素版）](./problems/kamacoder/0047.参会dijkstra朴素.md)
+23. [图论：dijkstra（堆优化版）](./problems/kamacoder/0047.参会dijkstra堆.md)
+24. [图论：Bellman_ford 算法](./problems/kamacoder/0094.城市间货物运输I.md)
+25. [图论：Bellman_ford 队列优化算法（又名SPFA）](./problems/kamacoder/0094.城市间货物运输I-SPFA.md)
+26. [图论：Bellman_ford之判断负权回路](./problems/kamacoder/0095.城市间货物运输II.md)
+27. [图论：Bellman_ford之单源有限最短路](./problems/kamacoder/0095.城市间货物运输II.md)
+28. [图论：Floyd 算法](./problems/kamacoder/0097.小明逛公园.md)
+29. [图论：A * 算法](./problems/kamacoder/0126.骑士的攻击astar.md)
+30. [图论：最短路算法总结篇](./problems/kamacoder/最短路问题总结篇.md)
+31. [图论：图论总结篇](./problems/kamacoder/图论总结篇.md)
 
-* [图论：深度优先搜索理论基础](./problems/图论深搜理论基础.md)
-* [图论：797.所有可能的路径](./problems/0797.所有可能的路径.md)
-* [图论：广度优先搜索理论基础](./problems/图论广搜理论基础.md)
-* [图论：200.岛屿数量.深搜版](./problems/0200.岛屿数量.深搜版.md)
-* [图论：200.岛屿数量.广搜版](./problems/0200.岛屿数量.广搜版.md)
-* [图论：695.岛屿的最大面积](./problems/0695.岛屿的最大面积.md)
-* [图论：1020.飞地的数量](./problems/1020.飞地的数量.md)
-* [图论：130.被围绕的区域](./problems/0130.被围绕的区域.md)
-* [图论：417.太平洋大西洋水流问题](./problems/0417.太平洋大西洋水流问题.md)
-* [图论：827.最大人工岛](./problems/0827.最大人工岛.md)
-* [图论：127. 单词接龙](./problems/0127.单词接龙.md)
-* [图论：841.钥匙和房间](./problems/841.钥匙和房间)
-* [图论：463. 岛屿的周长](./problems/0463.岛屿的周长.md)
-* [图论：并查集理论基础](./problems/)
-* [图论：1971. 寻找图中是否存在路径](./problems/1971.寻找图中是否存在路径.md)
-* [图论：684.冗余连接](./problems/0684.冗余连接.md)
-* [图论：685.冗余连接II](./problems/0685.冗余连接II.md)
 
 （持续更新中....）
 
@@ -496,7 +501,7 @@
 
 # 贡献者 
 
-[点此这里](https://github.com/youngyangyang04/leetcode-master/graphs/contributors)查看LeetCode-Master的所有贡献者。感谢他们补充了LeetCode-Master的其他语言版本，让更多的读者收益于此项目。
+[点此这里](https://github.com/youngyangyang04/leetcode-master/graphs/contributors)查看LeetCode-Master的所有贡献者。感谢他们补充了LeetCode-Master的其他语言版本，让更多的读者受益于此项目。
 
 # Star 趋势
 
@@ -504,24 +509,13 @@
 
 # 关于作者
 
-大家好，我是程序员Carl，哈工大师兄，《代码随想录》作者，先后在腾讯和百度从事后端技术研发。对算法和C++后端技术有一定的见解，利用工作之余重新刷leetcode。 
+大家好，我是程序员Carl，哈工大师兄，《代码随想录》作者，先后在腾讯和百度从事后端技术底层技术研发。
 
-加入「代码随想录」刷题小分队（微信群），可以扫下方二维码，加代码随想录客服微信。
+# PDF下载 
 
-如果是已工作，备注：姓名-城市-岗位-组队刷题。如果学生，备注：姓名-学校-年级-组队刷题。**备注没有自我介绍不通过哦**
+添加如下企业微信，会自动发送给大家PDF版本，顺便可以选择是否加入刷题群。 
 
+添加微信记得备注，如果是已工作，备注：姓名-城市-岗位。如果学生，备注：姓名-学校-年级。**备注没有自我介绍不通过哦**
 
 <div align="center"><img src="https://code-thinking-1253855093.file.myqcloud.com/pics/第二企业刷题活码.png" data-img="1" width="200" height="200"></img></div>
-
-
-# 公众号
-
-更多精彩文章持续更新，微信搜索：「代码随想录」第一时间围观，关注后回复：666，可以获得我的所有算法专题原创PDF。
-
-**来看看就知道了，你会发现相见恨晚！**
-
-
-<a name="公众号"></a>
-<div align="center"><img src="https://code-thinking-1253855093.file.myqcloud.com/pics/20211026122841.png" data-img="1" width="650" height="500"></img></div>
-
 
